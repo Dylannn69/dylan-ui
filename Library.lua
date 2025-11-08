@@ -211,23 +211,6 @@ UIListLayout.FillDirection = Enum.FillDirection.Horizontal
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.Padding = UDim.new(0, 2)
 
--- ADD ONLY THIS NEW CODE RIGHT AFTER:
--- Enable scrolling for tabs
-TabSelection.ClipsDescendants = true
-
--- Create scrolling frame
-local TabScroll = Instance.new("ScrollingFrame")
-TabScroll.Name = "TabScroll"
-TabScroll.Parent = TabSelection
-TabScroll.Size = UDim2.new(1, 0, 1, 0)
-TabScroll.BackgroundTransparency = 1
-TabScroll.ScrollBarThickness = 6
-TabScroll.ScrollingDirection = Enum.ScrollingDirection.X
-TabScroll.CanvasSize = UDim2.new(0, 0, 0, 0)
-
--- Move TabButtons into scrolling frame
-TabButtons.Parent = TabScroll
-
 Frame.Parent = TabSelection
 Frame.BackgroundColor3 = Color3.new(0.12549, 0.227451, 0.372549)
 Frame.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
