@@ -140,9 +140,9 @@ Toggle.BackgroundColor3 = Color3.new(1, 1, 1)
 Toggle.BackgroundTransparency = 1
 Toggle.Position = UDim2.new(0, 5, 0, -2)
 Toggle.Rotation = 90
-Toggle.Size = UDim2.new(0, 23, 0, 23)
+Toggle.Size = UDim2.new(0, 21, 0, 21)
 Toggle.ZIndex = 2
-Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=113822902692512"
+Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=110889430388322"
 
 Base.Name = "Base"
 Base.Parent = Bar
