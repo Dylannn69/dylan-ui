@@ -211,12 +211,6 @@ UIListLayout.FillDirection = Enum.FillDirection.Horizontal
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.Padding = UDim.new(0, 2)
 
--- THIS IS ALREADY IN YOUR LIBRARY (DON'T TOUCH):
-UIListLayout.Parent = TabButtons
-UIListLayout.FillDirection = Enum.FillDirection.Horizontal
-UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout.Padding = UDim.new(0, 2)
-
 -- ADD ONLY THIS NEW CODE RIGHT AFTER:
 -- Enable scrolling for tabs
 TabSelection.ClipsDescendants = true
